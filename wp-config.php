@@ -22,7 +22,7 @@ define('DB_NAME', 'unbroken_db');
 define('DB_USER', 'unbroken_goozmo');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'q19Xcu]#9*CO');
+define('DB_PASSWORD', '');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
