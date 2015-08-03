@@ -1,0 +1,70 @@
+/*
+Theme Name: Unbroken Circle Theme
+Theme URI: http://www.nicdarkthemes.com
+Description: Child theme for Baby Kids
+Author: Nicdark
+Author URI: http://www.nicdarkthemes.com
+Version: 1.4
+Template: babykids
+License: http://www.nicdarkthemes.com
+License URI: http://www.nicdarkthemes.com
+*/
+
+@import url("../babykids/style.css");
+
+.menu > li > a  {
+	color: #6AB78B;
+}
+
+.menu > li > a:after {
+	color: #ac7ab5;
+}
+
+.variations_form table,
+.product_meta,
+.woocommerce-tabs .panel {
+    background: #B19CD9 none repeat scroll 0% 0%;
+    box-shadow: 0px 0px 0px 0px #CCC;
+}
+.variations_form table td,
+.product_meta .posted_in, 
+.product_meta .tagged_as, 
+.product_meta .sku_wrapper,
+.woocommerce-tabs .panel p,
+.woocommerce-tabs .panel h2,
+.woocommerce-tabs .panel h3 {
+	color:black;
+}
+.product_meta a {
+	color:green;
+}
+
+.product_meta {
+	padding:15px;
+}
+
+.woocommerce div.product form.cart .variations {
+	padding:15px;
+}
+.woocommerce-tabs .panel {
+	padding:15px !important;
+	border-radius:5px;
+}
+.woocommerce-tabs li a {
+	background-color:initial !important;
+}
+.product .product_title::after {
+	display:none;
+}
+.nicdark_logo {
+    float: left;
+    position: relative;
+    width: 300px;
+    height: auto;
+}
+
+/************************************************************/
+/* For Team Collaberation - 								*/
+/*	Link in teammates styles (no version control WHAT!?!) 	*/
+/************************************************************/
+@import url("./style2.css");

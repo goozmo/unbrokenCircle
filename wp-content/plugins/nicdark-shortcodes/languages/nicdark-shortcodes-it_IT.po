@@ -1,0 +1,183 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: nicdarkshortcodes\n"
+"POT-Creation-Date: 2015-02-16 17:17+0100\n"
+"PO-Revision-Date: 2015-02-17 09:40+0100\n"
+"Last-Translator: nicdark <support@newgraphicses.it>\n"
+"Language-Team: nicdark <newgraphicses@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.6\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"Language: it\n"
+"X-Poedit-SearchPath-0: ../shortcodes\n"
+
+#: ../shortcodes/advanced_search_nd.php:10
+#: ../shortcodes/query/post_query.php:6
+msgid "ALL"
+msgstr "TUTTI"
+
+#: ../shortcodes/advanced_search_nd.php:42
+msgid "DATE"
+msgstr "DATA"
+
+#: ../shortcodes/advanced_search_nd.php:43
+msgid "KEYWORD"
+msgstr "CHIAVE"
+
+#: ../shortcodes/advanced_search_nd.php:44
+msgid "SEARCH"
+msgstr "CERCA"
+
+#: ../shortcodes/advanced_search_nd.php:86
+msgid "Advanced Search"
+msgstr "Ricerca Avanzata"
+
+#: ../shortcodes/advanced_search_nd.php:88
+msgid "Insert Advanced Search"
+msgstr "Inserisci Ricerca Avanzata"
+
+#: ../shortcodes/advanced_search_nd.php:92 ../shortcodes/countdown_nd.php:81
+msgid "Nicdark Shortcodes"
+msgstr "Codici di Nicdark"
+
+#: ../shortcodes/advanced_search_nd.php:101
+msgid "Choose the post type to filter"
+msgstr "Scegli il tipo di post da filtrare"
+
+#: ../shortcodes/advanced_search_nd.php:107 ../shortcodes/countdown_nd.php:139
+msgid "4 Columns"
+msgstr "4 colonne"
+
+#: ../shortcodes/advanced_search_nd.php:107 ../shortcodes/countdown_nd.php:139
+msgid "3 Columns"
+msgstr "3 colonne"
+
+#: ../shortcodes/advanced_search_nd.php:107 ../shortcodes/countdown_nd.php:139
+msgid "2 Columns"
+msgstr "2 colonne"
+
+#: ../shortcodes/advanced_search_nd.php:107 ../shortcodes/countdown_nd.php:139
+msgid "1 Column"
+msgstr "1 colonna"
+
+#: ../shortcodes/advanced_search_nd.php:108 ../shortcodes/countdown_nd.php:140
+msgid "Choose columns style"
+msgstr "Scegli il numero di colonne"
+
+#: ../shortcodes/advanced_search_nd.php:115
+msgid "Select your button color"
+msgstr "Scegli il colore del bottone"
+
+#: ../shortcodes/advanced_search_nd.php:121
+msgid "Light Version"
+msgstr "Versione Chiara"
+
+#: ../shortcodes/advanced_search_nd.php:121
+msgid "Dark Version"
+msgstr "Versione Scura"
+
+#: ../shortcodes/advanced_search_nd.php:122 ../shortcodes/countdown_nd.php:157
+#: ../shortcodes/countdown_nd.php:165 ../shortcodes/countdown_nd.php:173
+#: ../shortcodes/countdown_nd.php:181
+msgid "Select your color"
+msgstr "Seleziona il tuo colore"
+
+#: ../shortcodes/countdown_nd.php:32
+msgid "DAYS"
+msgstr "GIORNI"
+
+#: ../shortcodes/countdown_nd.php:33
+msgid "HOURS"
+msgstr "ORE"
+
+#: ../shortcodes/countdown_nd.php:34
+msgid "MINUTES"
+msgstr "MINUTI"
+
+#: ../shortcodes/countdown_nd.php:35
+msgid "SECONDS"
+msgstr "SECONDI"
+
+#: ../shortcodes/countdown_nd.php:75
+msgid "Countdown"
+msgstr "Conto alla rovescia"
+
+#: ../shortcodes/countdown_nd.php:77
+msgid "Add event countdown"
+msgstr "Aggiungi evento conto alla rovescia"
+
+#: ../shortcodes/countdown_nd.php:87
+msgid "Date"
+msgstr "Data"
+
+#: ../shortcodes/countdown_nd.php:90
+msgid "June 06, 2017"
+msgstr "June 06, 2017"
+
+#: ../shortcodes/countdown_nd.php:91
+msgid "Insert the Date E.g. June 06, 2017"
+msgstr "Inserisci la data E.g. June 06, 2017"
+
+#: ../shortcodes/countdown_nd.php:95
+msgid "Show Days"
+msgstr "Mostra giorni"
+
+#: ../shortcodes/countdown_nd.php:97
+msgid "Check it for display days"
+msgstr "Check per visualizzare i giorni"
+
+#: ../shortcodes/countdown_nd.php:104
+msgid "Show Hours"
+msgstr "Mostra Ore"
+
+#: ../shortcodes/countdown_nd.php:106
+msgid "Check it for display hours"
+msgstr "Check per visualizzare le ore"
+
+#: ../shortcodes/countdown_nd.php:113
+msgid "Show Minutes"
+msgstr "Mostra minuti"
+
+#: ../shortcodes/countdown_nd.php:115
+msgid "Check it for display minutes"
+msgstr "Check per visualizzare i minuti"
+
+#: ../shortcodes/countdown_nd.php:122
+msgid "Show Seconds"
+msgstr "Mostra secondi"
+
+#: ../shortcodes/countdown_nd.php:124
+msgid "Check it for display seconds"
+msgstr "Check per visualizzare i secondi"
+
+#: ../shortcodes/countdown_nd.php:131
+msgid "Number Color"
+msgstr "Colore del numero"
+
+#: ../shortcodes/countdown_nd.php:133
+msgid "Select the number color. E.g. #868585"
+msgstr "Seleziona il colore per il numero. Esempio #868585"
+
+#: ../shortcodes/countdown_nd.php:144
+msgid "Choose Colors"
+msgstr "Scegli colori"
+
+#: ../shortcodes/countdown_nd.php:147
+msgid "No"
+msgstr "No"
+
+#: ../shortcodes/countdown_nd.php:148
+msgid "Yes"
+msgstr "Si"
+
+#: ../shortcodes/countdown_nd.php:150
+msgid "Choose \"yes\" for set the colors"
+msgstr "Scegli \"Si\" per decidere i colori"
+
+#: ../shortcodes/query/post_query.php:7
+msgid "Read More"
+msgstr "Leggi altro"

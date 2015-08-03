@@ -1,0 +1,5 @@
+/* fixed error  - theme was looking for the file in this directory, */
+/* 				- it is actually located in the directory below */
+/* NOTE - DO NOT COPY AND PASTE CODE FROM PARENT, BY IMPORTATING */
+/* 		- YOU WILL BE ABLE TO PERSERVE PARENT CONTENT UPDATES*/
+@import url("../../babykids/css/nicdark_responsive.css");
