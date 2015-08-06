@@ -1,5 +1,5 @@
 <?php
-
+$str = "";
 $str .= '<div class="nicdark_masonry_container">';
 
 while ( $the_query->have_posts() ) : $the_query->the_post();

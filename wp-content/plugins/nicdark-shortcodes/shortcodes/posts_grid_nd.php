@@ -22,25 +22,52 @@ function nicdark_shortcode_posts_grid($atts, $content = null)
       ), $atts);
 
     //need for event/excursion custom order
+   
+    // echo "<pre>";
+    // echo $atts['post_grid_type'] . "<br/>" ;
+    // echo gettype( $atts['post_grid_type'] );
+    // echo "</pre>";
+    // $customokey = 'metabox_event_date';
+    
+    $customokey = "";
+    
     if ( $atts['post_grid_type'] == 'our-events' ) { 
-      if ( $atts['post_grid_eventsdate'] == 1 ) { 
+	    // echo "PASS 1 <br/>";
+      if ( $atts['post_grid_eventsdate'] == 1 ) {
+	    // echo "PASS 2A <br/>";   
         $customorderby = 'meta_value'; 
         $customokey = 'metabox_event_date';
         $pgtaxonomyname = 'typology-event';
-      } else{ $customorderby = $atts['post_grid_orderby']; $pgtaxonomyname = 'typology-event'; } 
-    }elseif ( $atts['post_grid_type'] == 'excursions' ) {
+      } 
+      else{
+	      // echo "PASS 2B <br/>"; 
+	      $customorderby = $atts['post_grid_orderby']; 
+	      $pgtaxonomyname = 'typology-event';
+	  } 
+    }
+    elseif ( $atts['post_grid_type'] == 'excursions' ) {
       if ( $atts['post_grid_excursionsdate'] == 1 ){ 
         $customorderby = 'meta_value'; 
         $customokey = 'metabox_excursion_date'; 
         $pgtaxonomyname = 'typology-excursion';
-      } else{ $customorderby = $atts['post_grid_orderby']; $pgtaxonomyname = 'typology-excursion'; } 
-    }elseif ( $atts['post_grid_type'] == 'courses' ) {
-      if ( $atts['post_grid_courseprice'] == 1 ) { 
+      } 
+      else{
+	      $customorderby = $atts['post_grid_orderby']; 
+	      $pgtaxonomyname = 'typology-excursion'; 
+	  } 
+    }
+    elseif ( $atts['post_grid_type'] == 'courses' ) {
+      if ( $atts['post_grid_courseprice'] == 1 ) {
         $customorderby = 'meta_value'; 
         $customokey = 'metabox_course_price'; 
         $pgtaxonomyname = 'typology-course';
-      } else{ $customorderby = $atts['post_grid_orderby']; $pgtaxonomyname = 'typology-course'; } 
-    }else{
+      } 
+      else{
+	      $customorderby = $atts['post_grid_orderby']; 
+	      $pgtaxonomyname = 'typology-course'; 
+	  } 
+    }
+    else{
       $customorderby = $atts['post_grid_orderby']; 
     }
 
@@ -56,8 +83,16 @@ function nicdark_shortcode_posts_grid($atts, $content = null)
       'category_name' => ''.$atts['post_grid_categories'].'',
       ''.$pgtaxonomyname.'' => ''.$atts['post_grid_terms'].''
     );
-
+	
+	// echo "<pre>";
+    // print_r( $args );
+    // echo "</pre>";
+	
     $the_query = new WP_Query( $args );
+    
+    // echo "<pre>";
+    // print_r( $the_query );
+    // echo "</pre>"; 
 
     if ( $atts['post_grid_type'] == 'post' ) { include 'query/post_query.php';  }
     if ( $atts['post_grid_type'] == 'courses' ) { include 'query/courses_query.php';  }
